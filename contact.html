@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>RCCIIT</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>Suvendu Dinda</h2>
+                    <p class="title">Co-Founder & Art</p>
+                    <p>MCA Depertment, RCCIIT Alumni</p>
+                    <p>mca2021027@rcciir.org.in</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2>Jayanta Karmakar</h2>
+                    <p class="title">Co-Founder & Designer & Development</p>
+                    <p>MCA Depertment, RCCIIT Alumni</p>
+                    <p>mca2021060@rcciit.org,in</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
